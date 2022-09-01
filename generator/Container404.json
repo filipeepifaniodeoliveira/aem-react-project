@@ -1,0 +1,61 @@
+{
+  "project-settings": {
+    "code-owner": "React App",
+    "bundle-path": "../core/src/main/java",
+    "test-path": "../core/src/test/java",
+    "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+    "component-path": "reactapp",
+    "model-interface-pkg": "com.reactapp.core.models",
+    "model-impl-pkg": "com.reactapp.core.models.impl"
+  },
+  "name": "not-found-component",
+  "title": "Not Found Component",
+  "group": "React App - Content",
+  "type": "components",
+  "options": {
+    "js": false,
+    "jstxt": false,
+    "css": false,
+    "csstxt": false,
+    "html": false,
+    "html-content": false,
+    "slingmodel": true,
+    "testclass": false,
+    "junit-major-version": 5,
+    "content-exporter": true,
+    "model-adaptables": [
+      "request"
+    ],
+    "generic-javadoc": false,
+    "properties": [
+      {
+        "field": "image",
+        "type": "image",
+        "label": "Imagem",
+        "json-expose": true,
+        "json-property": "image"
+      },
+      {
+        "field": "titleNotFound",
+        "label": "Digite o seu título.",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "titleNotFound"
+      },
+      {
+        "field": "descriptNotFound",
+        "label": "Digite o seu texto.",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "descriptNotFound"
+      },
+      {
+        "field": "buttonNotFound",
+        "label": "Digite o texto.",
+        "type": "textfield",
+        "json-expose": true,
+        "json-property": "buttonNotFound"
+      }
+    ]
+  }
+}
