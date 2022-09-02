@@ -15,6 +15,10 @@
  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
 /* Global styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Nunito&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata&family=Space+Mono&display=swap');
+
 
 html,
 body {
